@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lox Interpreter 1 (Tree-Walk Interpreter)", "Lox Interpreter 1 - jLox\Lox Interpreter 1 (Tree-Walk Interpreter).csproj", "{520FBBE5-30E5-4091-8482-C9C23F5751CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tool - Generate AST (Abstract Syntax Tree)", "Tool - Generate AST (Abstract Syntax Tree)\Tool - Generate AST (Abstract Syntax Tree).csproj", "{A2BBE704-FCE7-4045-9A01-1E7669D374CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{520FBBE5-30E5-4091-8482-C9C23F5751CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{520FBBE5-30E5-4091-8482-C9C23F5751CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{520FBBE5-30E5-4091-8482-C9C23F5751CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{520FBBE5-30E5-4091-8482-C9C23F5751CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2BBE704-FCE7-4045-9A01-1E7669D374CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2BBE704-FCE7-4045-9A01-1E7669D374CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2BBE704-FCE7-4045-9A01-1E7669D374CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2BBE704-FCE7-4045-9A01-1E7669D374CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4925397E-6E8A-459C-96BD-E87B65CD8D16}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+
+----------------------------------------------------------------------------------------------------
+The cLox interpreter in the book is written in C, but I am using C++ here.
+This resulted in a few minor changes being made to the code by me:
+----------------------------------------------------------------------------------------------------
+
+I removed the 'typedef' keyword from struct declarations in header files.
+This is the C way of declaring a struct, and not necessary in C++.
+You can leave the 'typedef' keywords in, but you'll get a bunch of compiler
+warnings of type C4091.
+
+I also commented out the include guards he uses in all the header files.
+C++ provides '#pragma once' to do the same thing without using '#ifdef' or '#ifndef'.
+
